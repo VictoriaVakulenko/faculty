@@ -17,14 +17,15 @@ a {
 
 #page-wrapper{
     padding-top: 130px;
-}
-
-#page-wrapper{
     background-image: url(../images/grads.jpg);
     background-position: center top;
-    right:0;
-    left: 0;
-    height: 720px;
+    right:0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+   /* background-size:contain;*/
+    margin: 0 auto;
 }
 /* Menu */
 #menu {
@@ -213,9 +214,13 @@ h5 span.name {
 
 /* Content */
 
+.content #new-courses{
+   padding: 20px;
+}
+
 #new-courses {
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     color: #3c3b3b;
     font-family: "Playfair Display", Arial, sans-serif;
     font-size: 36px;
@@ -263,6 +268,7 @@ h5 span.name {
     display: table;
     /*max-width: 60em;*/
     padding: 1.25em;
+    padding-top: 20px;
     margin: 0 auto;
    /* border: 0.062em solid #151515;*/
     color:  #fffefe;
