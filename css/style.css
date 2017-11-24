@@ -22,8 +22,8 @@ a {
 #page-wrapper{
     background-image: url(../images/grads.jpg);
     background-position: center top;
-    background: no-repeat;
-    width: 100%;
+    right:0;
+    left: 0;
     height: 720px;
 }
 /* Menu */
