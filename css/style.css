@@ -1,0 +1,317 @@
+
+
+html, body {
+    background: white; 
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    display: inline-block;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#page-wrapper{
+    padding-top: 130px;
+}
+
+#page-wrapper{
+    background-image: url(../images/grads.jpg);
+    background-position: center top;
+    width: 1400px;
+    height: 720px;
+}
+/* Menu */
+#menu {
+    background: #ffffff;
+    height: 60px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#menu > ul {
+    padding: 0 ;
+    margin: 0;
+    height: 100%;
+    text-align: right;
+}
+
+#menu > ul > li {
+    display: inline-block;
+    list-style: none;
+    height: 100%;
+}
+
+#menu > ul > li a{
+    display: inline-block;
+    text-decoration: none;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 25px;
+    position: relative;
+}
+
+#menu > ul > li a:hover {
+   color: darkslategrey;
+}
+
+#menu-item{
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    color: #0e0e0e;
+    font-style: normal;
+    font-size: 18px;
+}
+
+#logo {
+    text-align: left;
+    font-family: "Playfair Display", Arial, sans-serif;
+    font-size: 26px;
+    font-style: italic;
+    text-align: left;
+}
+
+#sign{
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    color: #627366;
+    text-decoration: none;
+    font-style: bold;
+    font-size: 18px;
+}
+
+#log{
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    color: #627366;
+    text-decoration: none;
+    font-style: bold;
+    font-size: 18px;
+}
+
+/* Quotes */
+
+#quotes {
+   align-content: center;
+   margin-top: 135px;
+}
+
+#main-quote > pre {
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 80px;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 5px 1px 1px black;
+    margin-bottom: 30px;
+}
+
+#sub-quote {
+    font-family: "Playfair Display", Arial, sans-serif;
+    color: #ffffff;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 1px 1px black;
+    margin: 0px;
+}
+
+/* Example */
+
+.example {
+    position: relative;
+}
+
+h5 span.number{
+    position: absolute;
+    top: 48px;
+    right: 708px;
+    color: white;
+    padding: 10px;
+    font-family: "PT Serif", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h5 span.courses{
+    position: absolute;
+    top: 90px;
+    left: 690px;
+    color: white;
+    padding: 10px;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+}
+
+h5 span.name {
+    position: absolute;
+    top: 65px;
+    right: 600px;
+    color: white;
+    padding: 10px;
+    font-family: "PT Serif", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+#circle {
+    margin-left: 620px;
+    margin-top: 55px; 
+    padding: 0;
+}
+
+/* CTA */
+#CTA {
+    padding: 20px;
+}
+
+#CTA .button{
+    width: 240px;
+    height: 50px;
+    display: inline-block;
+    background-color: #ffffff;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-weight: normal;
+    margin: 5px;
+}
+
+#CTA .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#CTA .button span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#CTA .button:hover span {
+    padding-right: 25px;
+}
+
+#CTA .button:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+
+/* Content */
+
+#new-courses {
+    text-align: center;
+    padding: 30px;
+    color: #3c3b3b;
+    font-family: "Playfair Display", Arial, sans-serif;
+    font-size: 36px;
+    text-shadow: 2px grey;
+}
+
+.course {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+.course figcapation {
+    margin: 0 auto 2px;
+    text-align: center;
+    font-family: "Playfair Display", Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    color: black;
+}
+
+.course img {
+    margin: auto;
+    width: 200px;
+    height: 280px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.course img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+/* Footer */
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2d2d2d;
+    text-align: center;
+    margin: 0;
+    display: table;
+    /*max-width: 60em;*/
+    padding: 1.25em;
+    margin: 0 auto;
+   /* border: 0.062em solid #151515;*/
+    color:  #fffefe;
+ }
+
+.footer div {
+    display: table-cell;
+    width: 33.333%;
+    padding: 1em;
+    text-align: center;
+}
+
+.footer div h2 {
+    text-align: center;
+     font-family: "Playfair Display", Arial, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+ }
+
+.footer div h3 {
+    text-align: left;
+}
+
+.footer p {
+    text-align: left;
+    margin-left: 40px;
+    font-family: "PT Serif", Arial, sans-serif;
+    font-size: 16px;
+}
+
+.footer div:nth-of-type(2) {
+    border-right: 0.062em dotted #999;
+    border-left: 0.062em dotted #999;
+ }
+
+.footer div:nth-of-type(3) {
+    text-align: left;
+ }
+
+.footer div > ul >li {
+    list-style: none;
+    font-family: "PT Serif", Arial, sans-serif;
+    font-size: 16px;
+}
+
+.footer img {
+    display: inline;
+}
+
+.social {
+    width: 60px;
+    height: 60px;
+}
